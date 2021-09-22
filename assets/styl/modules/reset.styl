@@ -17,6 +17,7 @@ body, h1, h2, h3, h4, h5, h6, p
 button
     border none
     cursor pointer
+    background none
     &:focus 
         outline none
 
@@ -35,3 +36,16 @@ a
 
 select:focus 
     outline none
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button 
+    -webkit-appearance none
+
+input
+    border none
+    
+input:focus
+    outline none
+
+input[type="number"]
+    -moz-appearance textfield
