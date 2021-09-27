@@ -1,0 +1,58 @@
+.gallery
+    display block
+    position relative
+    min-height 100vh
+    width 100%
+    background-color: whiteCol
+    margin-top: 135px
+    text-align: center
+    .title
+        color purpleCol
+        margin-top: 100px
+    .title-background
+        position absolute
+        top 26px
+        left calc(50% - 163px)
+        color purpleCol
+        font-weight: 600
+        font-size: 90px
+        line-height: 135px
+        opacity 0.1
+    .subtitle
+        font-size: 20px
+        line-height: 30px
+
+    .gallery_wrapper
+        display grid
+        position relative
+        margin 52px auto
+        width 1073px
+        height 462px;
+        grid-template-columns: 1.6fr 1fr 1fr
+        grid-template-rows 1fr 1fr
+        .big-photo
+            display block
+            grid-row-start: 1;
+            grid-row-end 3
+            background url(/images/gallery_pic-1.png)
+            background-repeat: no-repeat
+            background-position-x: left
+        .photo-2
+            background url(/images/gallery_pic-2.png)
+            background-repeat: no-repeat
+            background-position-x: center
+        .photo-3
+            background url(/images/gallery_pic-3.png)
+            background-repeat: no-repeat
+            background-position-x: right
+        .photo-4
+            background url(/images/gallery_pic-4.png)
+            background-repeat: no-repeat
+            background-position-x: center
+            background-position-y: bottom
+        .photo-5
+            background url(/images/gallery_pic-5.png)
+            background-repeat: no-repeat
+            background-position-x: right
+            background-position-y: bottom
+
